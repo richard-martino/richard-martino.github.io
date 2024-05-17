@@ -55,7 +55,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '02 Jan 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/richard-martino/richard-martino.github.io/'
     content_dir: content
     branch: main
   avatar:
