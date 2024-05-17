@@ -25,7 +25,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, "event", "post", "project", "slides*"]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, "**/event", "**/post", "**/project", "**/slides*"]
 permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
