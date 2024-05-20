@@ -247,13 +247,13 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: |-
-        This is occasionally monitored.
+  #- block: contact
+  #  id: contact
+  #  content:
+  #    title: Contact
+  #    subtitle:
+  #    text: |-
+  #      This is occasionally monitored.
       # Contact (add or remove contact options as necessary)
       # email: test@example.org
       # phone: 888 888 88 88
@@ -287,15 +287,15 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+   #   autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
+   #   form:
+   #     provider: netlify
+   #     formspree:
+   #       id:
+   #     netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
-    design:
-      columns: '2'
+   #       captcha: true
+   # design:
+   #   columns: '2'
 ---
